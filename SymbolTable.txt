@@ -1,0 +1,9 @@
+0159		label5
+0024		label2
+0156		label3
+0003		label8
+0000		label6
+0064		label7
+0021		label1
+0153		label4
+0150		label0

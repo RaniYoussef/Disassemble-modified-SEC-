@@ -1,0 +1,17 @@
+       copyxx Start      000000
+000000        LDA label0 000150
+000003        STA label1 0C0021
+000006        LDX label1 040021
+000009        LDA label0 000150
+00000c        STA label2,x 0C8024
+00000f        LDA label1 000021
+000012        ADD label3 180156
+000015        STA label1 0C0021
+000018        COMP label4 280153
+00001b        TIX label5 2C0159
+00001e        RESB      26
+000021 label5 LDA label6
+000024 label5 LDA label7
+000027        LDA label8 000003
+00002a        RESW      11
+              END        000000
